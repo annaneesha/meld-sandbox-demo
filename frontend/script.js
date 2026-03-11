@@ -37,23 +37,3 @@ async function createSession(){
         document.getElementById("result").innerText = error.message;
     }
 }
-
-
-
-// async function getQuote() {
-
-//   const result = document.getElementById("result");
-
-//   result.innerText = "Loading...";
-
-//   try {
-//     const response = await fetch("http://localhost:3000/quote");
-
-//     const data = await response.json();
-
-//     result.innerText = JSON.stringify(data, null, 2);
-
-//   } catch (error) {
-//     result.innerText = "Error: " + error;
-//   }
-// }
