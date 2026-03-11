@@ -100,17 +100,8 @@ Example session parameters:
 ---
 
 # Project Structure
-project-folder
-│
-├── index.html # Frontend UI
-├── script.js # Frontend API calls
-├── server.js # Backend Express server
-├── .env # Environment variables (API key)
-├── package.json
-└── README.md
 
-
-
+```plaintext
 ├── README.md
 ├── backend
 │   ├── .env                  # Environment variables (API key). Not included in repo — create this manually with your API key
@@ -121,14 +112,15 @@ project-folder
 └── frontend
     ├── index.html            # Frontend UI with step-by-step guided flow
     └── script.js             # Frontend JavaScript for calling the backend
+```
 
 ---
 
 # Setup Instructions
 
 ## 1. Clone or Download the Project
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/annaneesha/meld-sandbox-demo.git
+cd meld-sandbox-demo
 
 ---
 
