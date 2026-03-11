@@ -69,11 +69,12 @@ app.post("/create-session", async (req, res) => {
       "https://api-sb.meld.io/crypto/session/widget",
       {
         sessionData: {
-          walletAddress: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+          walletAddress: "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
           countryCode: "US",
           sourceCurrencyCode: "USD",
           sourceAmount: "100",
-          destinationCurrencyCode: "ETH",
+          destinationCurrencyCode: "BTC",
+          paymentMethodType: "CREDIT_DEBIT_CARD",
           serviceProvider: "TRANSAK"
         },
         sessionType: "BUY"
