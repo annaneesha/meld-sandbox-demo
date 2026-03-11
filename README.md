@@ -119,14 +119,17 @@ Example session parameters:
 # Setup Instructions
 
 ## 1. Clone or Download the Project
+```bash
 git clone https://github.com/annaneesha/meld-sandbox-demo.git
 cd meld-sandbox-demo
-
+```
 ---
 
 ## 2. Install Dependencies
+```bash
 cd backend
 npm install
+```
 
 Dependencies used:
 
@@ -146,8 +149,10 @@ This keeps the API key secure and prevents it from being exposed in the frontend
 ---
 
 ## 4. Start the Backend Server
+```bash
 cd backend
 node server.js
+```
 
 Server will run at: http://localhost:3000/
 
